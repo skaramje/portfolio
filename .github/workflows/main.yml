@@ -1,0 +1,7 @@
+on: [push]
+jobs:
+  steps:
+    - users: actions/checkout@v2
+      env:
+        CI: true
+         
