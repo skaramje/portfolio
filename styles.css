@@ -1,0 +1,4 @@
+.navbar-nav .nav-item .nav-link:focus {
+    text-decoration: underline;
+    background-color: rgba(182, 70, 182, 0.123);
+}
