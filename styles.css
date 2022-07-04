@@ -2,3 +2,11 @@
     text-decoration: underline;
     background-color: rgba(182, 70, 182, 0.123);
 }
+
+.active {
+    background-color: rgba(182, 70, 182, 0.123);
+}
+
+.footbar {
+    background-color: rgba(182, 70, 182, 0.123);
+}

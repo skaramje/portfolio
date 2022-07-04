@@ -30,13 +30,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./bio.html">Bio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./projects.html">Projects</a>
+                    <a class="nav-link active" href="./projects.html">Projects</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./contactme.html">Contact Me</a>
@@ -61,7 +61,14 @@
         </nav>
         </header>
         <main class="container text-center">
-            <h1> Home page </h1>
+            <div class="container" id="projects">
+              <h4> Capstone projects </h4>
+              <div id="capstone"></div>
+              <h4> Intermediate projects </h4>
+              <div id="Intermediate"</div>
+              <h4> Simple projects </h4>
+              <div id="simple"></div>
+            </div>
         </main>
         <footer class="container fixed-bottom text-center footbar">
               <span class="text-muted">
@@ -72,7 +79,7 @@
               </span>  
           </footer>
         </div>
-        <script src="" async defer></script>
+        <script type='module' src="./projects/projects.js" async defer></script>
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
