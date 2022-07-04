@@ -1,6 +1,7 @@
 import { Header } from "./header.js";
 import { Navigation } from "./navigation.js";
 import { Container } from "./container.js";
+import { IoContainer } from "./io-container.js";
 
 class Processor {
     constructor (structure) {
@@ -10,7 +11,7 @@ class Processor {
 
         this.header = new Header(structure.ids.header, structure.classList.header, structure.title)
         this.navigation = new Navigation(structure.ids.navigation, structure.classList.navigation, structure.buttons)
-        this.container = new Container(structure.ids.repoLink, structure.classList.repoLink, structure.repoLink)
+        this.container = new IoContainer(structure.ids.ioContainer, structure.classList.ioContainer)
     }
 
     render(){
@@ -33,7 +34,6 @@ class Processor {
     
     activate(){
         this.navigation.activate()
-        this.repoLink.activate()
     }
 }
 export { Processor }

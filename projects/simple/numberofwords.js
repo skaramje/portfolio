@@ -29,8 +29,8 @@ let wordCounterStructure = {
         }
     },
     classList: {
-        processor: ['text-processor'],
-        header: ['header3'],
+        processor: ['simple'],
+        header: ['header'],
         navigation: {
             navigation: ['navigation-bar'],
             buttons: {
@@ -39,15 +39,15 @@ let wordCounterStructure = {
                 'Remove Text': ['remove-text-button', 'btn', 'btn-danger']
             }
         },
-        container: {
-            container: ['io-container'],
+        ioContainer: {
+            ioContainer: ['io-container'],
             inputContainer: ['io-container-subcontainer'],
             outputContainer: ['io-container-subcontainer']
         }
     },
     ids: {
         processor: 'word-counter',
-        header: 'word-counter-header3',
+        header: 'word-counter-header',
         navigation: {
             navigation: 'word-counter-navigation-bar',
             buttons: {
@@ -56,8 +56,8 @@ let wordCounterStructure = {
                 'Remove Text': 'word-counter-remove-text-button'
             }
         },
-        container: {
-            container: 'word-counter-container',
+        ioContainer: {
+            ioContainer: 'word-counter-io-container',
             inputContainer: 'word-counter-input-container',
             outputContainer: 'word-counter-output-container'
         }
